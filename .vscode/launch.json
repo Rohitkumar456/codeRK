@@ -1,0 +1,519 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ReOrderList",
+            "request": "launch",
+            "mainClass": "ReOrderList",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LowestCommonAncesstor",
+            "request": "launch",
+            "mainClass": "LowestCommonAncesstor",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSwappedNodes",
+            "request": "launch",
+            "mainClass": "FindSwappedNodes",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindKthSmallestElement",
+            "request": "launch",
+            "mainClass": "FindKthSmallestElement",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchOnRotatedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchOnRotatedArray",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiThreadingBasics",
+            "request": "launch",
+            "mainClass": "MultiThreadingBasics",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch priorityQueueBasics",
+            "request": "launch",
+            "mainClass": "priorityQueueBasics",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch COuntRightTriangles",
+            "request": "launch",
+            "mainClass": "COuntRightTriangles",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthOfLongestPalindromicSublist",
+            "request": "launch",
+            "mainClass": "LengthOfLongestPalindromicSublist",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckPalindromicList",
+            "request": "launch",
+            "mainClass": "CheckPalindromicList",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FurthestBuildingWeCanReach",
+            "request": "launch",
+            "mainClass": "FurthestBuildingWeCanReach",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort_LL",
+            "request": "launch",
+            "mainClass": "MergeSort_LL",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumCutPalindromicPartition",
+            "request": "launch",
+            "mainClass": "MinimumCutPalindromicPartition",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfSubArraysWithUniqueElements",
+            "request": "launch",
+            "mainClass": "NumberOfSubArraysWithUniqueElements",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumPallindromicSubstring",
+            "request": "launch",
+            "mainClass": "MaximumPallindromicSubstring",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinTimeToReachBottomOfGrid",
+            "request": "launch",
+            "mainClass": "MinTimeToReachBottomOfGrid",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongesPallindromicSubsequence",
+            "request": "launch",
+            "mainClass": "LongesPallindromicSubsequence",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encryption",
+            "request": "launch",
+            "mainClass": "Encryption",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfacesTest",
+            "request": "launch",
+            "mainClass": "InterfacesTest",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TryCatch",
+            "request": "launch",
+            "mainClass": "TryCatch",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch getListFromUrl",
+            "request": "launch",
+            "mainClass": "getListFromUrl",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinSumInfinite_distinctSet",
+            "request": "launch",
+            "mainClass": "CoinSumInfinite_distinctSet",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinSumInfinite_ordered",
+            "request": "launch",
+            "mainClass": "CoinSumInfinite_ordered",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinSumInfinite",
+            "request": "launch",
+            "mainClass": "CoinSumInfinite",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintingMachine",
+            "request": "launch",
+            "mainClass": "PaintingMachine",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubarrayProduct",
+            "request": "launch",
+            "mainClass": "MaxSubarrayProduct",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfMaxMinOfSubarrays",
+            "request": "launch",
+            "mainClass": "SumOfMaxMinOfSubarrays",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectNumber",
+            "request": "launch",
+            "mainClass": "PerfectNumber",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumInSlidingWindow",
+            "request": "launch",
+            "mainClass": "MaximumInSlidingWindow",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateNumberWithDigits",
+            "request": "launch",
+            "mainClass": "GenerateNumberWithDigits",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DotProduct",
+            "request": "launch",
+            "mainClass": "DotProduct",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPallindromicSubsequence",
+            "request": "launch",
+            "mainClass": "LongestPallindromicSubsequence",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumRectangleWith1s",
+            "request": "launch",
+            "mainClass": "MaximumRectangleWith1s",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextGreaterElement",
+            "request": "launch",
+            "mainClass": "NextGreaterElement",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PostfixExpression",
+            "request": "launch",
+            "mainClass": "PostfixExpression",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxMinOfAllSubarrays",
+            "request": "launch",
+            "mainClass": "MaxMinOfAllSubarrays",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoubleCharacterTrouble",
+            "request": "launch",
+            "mainClass": "DoubleCharacterTrouble",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "LargestRectangleInHistogram",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvaluateExpression",
+            "request": "launch",
+            "mainClass": "EvaluateExpression",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch NearestSmallerElement",
+            "request": "launch",
+            "mainClass": "NearestSmallerElement",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch EquivalentBracketExpressions",
+            "request": "launch",
+            "mainClass": "EquivalentBracketExpressions",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveMinInvalidParenthesis",
+            "request": "launch",
+            "mainClass": "RemoveMinInvalidParenthesis",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumSwapsToArrangePairs",
+            "request": "launch",
+            "mainClass": "MinimumSwapsToArrangePairs",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegularExpressionMatch",
+            "request": "launch",
+            "mainClass": "RegularExpressionMatch",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerOfString",
+            "request": "launch",
+            "mainClass": "PowerOfString",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertStringIntoAnother",
+            "request": "launch",
+            "mainClass": "ConvertStringIntoAnother",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePathsWithObstacles",
+            "request": "launch",
+            "mainClass": "UniquePathsWithObstacles",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch WaysOfPartying",
+            "request": "launch",
+            "mainClass": "WaysOfPartying",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "LongestCommonSubsequence",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "LongestIncreasingSubsequence",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSumWithoutAdjacent2",
+            "request": "launch",
+            "mainClass": "MaxSumWithoutAdjacent2",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSUmWithoutAdjacent",
+            "request": "launch",
+            "mainClass": "MaxSUmWithoutAdjacent",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumNumberOfSquares",
+            "request": "launch",
+            "mainClass": "MinimumNumberOfSquares",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch WindowString",
+            "request": "launch",
+            "mainClass": "WindowString",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParsingBoolenExp",
+            "request": "launch",
+            "mainClass": "ParsingBoolenExp",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch InversionCountOfArray",
+            "request": "launch",
+            "mainClass": "InversionCountOfArray",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterPhone",
+            "request": "launch",
+            "mainClass": "LetterPhone",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryWatch",
+            "request": "launch",
+            "mainClass": "BinaryWatch",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CanBrokenIntoValidWords",
+            "request": "launch",
+            "mainClass": "CanBrokenIntoValidWords",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateValidParenthesis",
+            "request": "launch",
+            "mainClass": "GenerateValidParenthesis",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreyCodeGenerator",
+            "request": "launch",
+            "mainClass": "GreyCodeGenerator",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinPallindromicPartitions",
+            "request": "launch",
+            "mainClass": "MinPallindromicPartitions",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch NQueens",
+            "request": "launch",
+            "mainClass": "NQueens",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PainterPartition",
+            "request": "launch",
+            "mainClass": "PainterPartition",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromicPartitions",
+            "request": "launch",
+            "mainClass": "PalindromicPartitions",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsOfArray",
+            "request": "launch",
+            "mainClass": "PermutationsOfArray",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecialInteger",
+            "request": "launch",
+            "mainClass": "SpecialInteger",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquarefulArrays",
+            "request": "launch",
+            "mainClass": "SquarefulArrays",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsequenceWithSum",
+            "request": "launch",
+            "mainClass": "SubsequenceWithSum",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetsOfASet",
+            "request": "launch",
+            "mainClass": "SubsetsOfASet",
+            "projectName": "CodeRK_ae5ad3c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SudokuSolver",
+            "request": "launch",
+            "mainClass": "SudokuSolver",
+            "projectName": "CodeRK_ae5ad3c0"
+        }
+    ]
+}

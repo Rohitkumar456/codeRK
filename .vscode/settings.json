@@ -1,0 +1,26 @@
+{
+    "java.project.sourcePaths": [
+        "sorting",
+        "TwoPointers",
+        "Stacks",
+        "Recursion",
+        "Queues",
+        "PriorityQueue",
+        "LinkedList",
+        "LeetCode/HardProblems",
+        "LeetCode/Backtracking",
+        "JavaBasics",
+        "Hashing",
+        "DynamicProgramming",
+        "Companies/ZestMoney",
+        "Companies/FarEye",
+        "BinarySearchTree",
+        "Binary Search",
+        "BackTrackiing",
+        "Arrays",
+        "BInaryTrees"
+    ],
+    "java.project.referencedLibraries": [
+        "C:\\ExternalJavaLibraries\\gson-2.8.6.jar"
+    ]
+}
