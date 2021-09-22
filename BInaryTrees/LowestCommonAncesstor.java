@@ -14,7 +14,18 @@ import java.util.ArrayList;
  *                  /  \
  *                 1    6
  */
+class TreeNode{
+    int data;
+    TreeNode left;
+    TreeNode right;
 
+    TreeNode(int d){
+        this.data = d;
+        this.left = null;
+        this.right = null;
+    }
+
+}
 public class LowestCommonAncesstor {
     ArrayList<Integer>listA = new ArrayList<>();
     ArrayList<Integer>listB = new ArrayList<>();

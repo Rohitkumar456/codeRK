@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LowestCommonAncesstor",
+            "request": "launch",
+            "mainClass": "LowestCommonAncesstor",
+            "projectName": "CodeRK_1a1664bf"
+        },
+        {
+            "type": "java",
             "name": "Launch ReOrderList",
             "request": "launch",
             "mainClass": "ReOrderList",
