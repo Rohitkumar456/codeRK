@@ -14,11 +14,10 @@
         "DynamicProgramming",
         "Companies/ZestMoney",
         "Companies/FarEye",
-        "BinarySearchTree",
         "Binary Search",
         "BackTrackiing",
         "Arrays",
-        "BInaryTrees"
+        "Heaps"
     ],
     "java.project.referencedLibraries": [
         "C:\\ExternalJavaLibraries\\gson-2.8.6.jar"
