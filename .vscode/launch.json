@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ShortestUniquePrefix",
+            "request": "launch",
+            "mainClass": "ShortestUniquePrefix",
+            "projectName": "CodeRK_1a1664bf"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubarraysXorLessThanB",
+            "request": "launch",
+            "mainClass": "SubarraysXorLessThanB",
+            "projectName": "CodeRK_1a1664bf"
+        },
+        {
+            "type": "java",
             "name": "Launch LowestCommonAncesstor",
             "request": "launch",
             "mainClass": "LowestCommonAncesstor",

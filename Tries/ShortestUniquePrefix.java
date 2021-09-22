@@ -24,10 +24,13 @@ public class ShortestUniquePrefix {
     public static void main(String[] args) {
 
         ShortestUniquePrefix sup = new ShortestUniquePrefix();
-        String[] words = {"zebra", "dog", "duck", "dove"};
+        // String[] words = {"zebra", "dog", "duck", "dove"};
+        String[] words = {"do","dw"};
 
         String[] ans = sup.shortestPrefix(words);
-        System.out.println(ans[3]);
+        for(String s:ans){
+            System.out.println(s);
+        }
         
     }
 
@@ -49,7 +52,6 @@ public class ShortestUniquePrefix {
                 cur = cur.childs.get(ch);
             }
         }
-
         //find the shortestunique prefix for each words by traversing the  trie tree
         int j=0;
         for(String s:words){
