@@ -25,6 +25,8 @@ public class HeapIntro {
         for (int i : heap) {
             System.out.println(i+" ");
         }
+
+        
     }
 
     public int[] convertToHeap(int[] heap){

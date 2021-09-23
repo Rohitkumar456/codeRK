@@ -9,16 +9,9 @@ public class priorityQueueBasics {
         
 
 
-        PriorityQueue<Integer>pq = new PriorityQueue<>(new Comparator<Integer>(){
-            public int compare(Integer a, Integer b){
-                return a-b;
-            }
-        });
+        PriorityQueue<Integer>pq = new PriorityQueue<>(Comparator.reverseOrder());
 
-        pq.add(1);
-        pq.add(2);
-        pq.add(3);
 
-        System.out.println(pq.peek());
+        System.out.println(pq.remove());
     }
 }

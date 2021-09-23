@@ -6,15 +6,16 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
             "name": "Launch HeapIntro",
             "request": "launch",
             "mainClass": "HeapIntro",
-=======
+            "projectName": "CodeRK_1a1664bf"
+        },
+        {
+            "type": "java",
             "name": "Launch LowestCommonAncesstor",
             "request": "launch",
             "mainClass": "LowestCommonAncesstor",
->>>>>>> dcc0af86f8d0cc77081d2b07285ff558585337d2
             "projectName": "CodeRK_1a1664bf"
         },
         {
