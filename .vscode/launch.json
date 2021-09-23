@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ContactFinder",
+            "request": "launch",
+            "mainClass": "ContactFinder",
+            "projectName": "CodeRK_1a1664bf"
+        },
+        {
+            "type": "java",
             "name": "Launch ShortestUniquePrefix",
             "request": "launch",
             "mainClass": "ShortestUniquePrefix",
