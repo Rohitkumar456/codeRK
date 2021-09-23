@@ -4,7 +4,7 @@
  */
 
 public interface  Heap {
-    public int add();
+    public boolean add(int val);
     public int remove();
     public int peek();
 }

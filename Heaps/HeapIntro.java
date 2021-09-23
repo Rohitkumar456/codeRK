@@ -15,6 +15,7 @@
  */
 
 public class HeapIntro {
+
     public static void main(String[] args) {
 
         HeapIntro hi = new HeapIntro();
@@ -26,7 +27,11 @@ public class HeapIntro {
             System.out.println(i+" ");
         }
 
-        
+        MaxHeap mh  = new MaxHeap();
+        mh.add(1);
+        mh.add(2);
+        mh.add(3);
+        System.out.println(mh.remove());
     }
 
     public int[] convertToHeap(int[] heap){

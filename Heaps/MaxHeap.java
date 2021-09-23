@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class MaxHeap implements Heap{
     
@@ -30,7 +31,7 @@ public class MaxHeap implements Heap{
     }
 
     public void perculateUp(int cur){
-        int parent = (cur+1)/2;
+        int parent = (cur+1)/2-1;
         if(parent>=0 && heapArr.get(parent)<heapArr.get(cur)){
             swap(cur, parent);
             perculateUp(parent);
@@ -47,5 +48,29 @@ public class MaxHeap implements Heap{
         int t = heapArr.get(i);
         heapArr.set(i, heapArr.get(j));
         heapArr.set(j, t);
+    }
+
+    @Override
+    public boolean add(int newVal) {
+        // TODO Auto-generated method stub
+        this.heapArr.add(newVal);
+        perculateUp(heapArr.size()-1);
+        return true;
+    }
+
+    @Override
+    public int peek() {
+        if(heapArr.size()>0){
+            return heapArr.get(0);
+        }else throw new NoSuchElementException();
+    }
+
+    @Override
+    public int remove() {
+        int val = heapArr.get(0);
+        swap(0, heapArr.get(heapArr.size()-1));
+        heapArr.remove(heapArr.size()-1);
+        perculateDown(0);
+        return val;
     }
 }
