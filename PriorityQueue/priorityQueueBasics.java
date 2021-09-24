@@ -9,9 +9,12 @@ public class priorityQueueBasics {
         
 
 
-        PriorityQueue<Integer>pq = new PriorityQueue<>(Comparator.reverseOrder());
+        PriorityQueue<Integer>pq = new PriorityQueue<>();
 
+        pq.add(1);
+        pq.add(2);
+        pq.add(3);
 
-        System.out.println(pq.remove());
+        System.out.println(pq.peek());
     }
 }
