@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch XorTriplets",
+            "request": "launch",
+            "mainClass": "XorTriplets",
+            "projectName": "CodeRK_1a1664bf"
+        },
+        {
+            "type": "java",
             "name": "Launch ContactFinder",
             "request": "launch",
             "mainClass": "ContactFinder",
