@@ -90,4 +90,40 @@ public class ModifiedSerach {
         }
         return root;
     }
+
+
+
+    // This is justs a simple approach without using the trie, instead we can just use hashMap to check 
+    //weather a particular word id present in the dictionry or not
+
+    public String search2(String[] dict,String[] words){
+        HashMap<String,Integer>dictionary = new HashMap<>();
+        String ans="";
+        for(String w:dict){
+            dictionary.put(w,0);
+        }
+        
+        boolean flag;
+        for(String w:words){
+            StringBuilder sb = new StringBuilder();
+            
+            flag=false;
+            
+            for(int i=0;i<w.length()&&!flag;i++){
+                sb.setLength(0);
+                sb.append(w);
+                for(char ch='a';ch<='z'&&!flag;ch++){
+                   sb.setCharAt(i,ch);
+                   if(ch!=w.charAt(i))
+                   if(dictionary.containsKey(sb.toString())){
+                    flag = true;   
+                   }
+                 }
+            }
+            if(flag){
+                ans+="1";
+            }else ans+="0";
+        }
+        return ans;
+    }
 }
