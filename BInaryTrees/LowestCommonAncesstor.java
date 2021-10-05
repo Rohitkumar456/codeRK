@@ -103,8 +103,8 @@ public class LowestCommonAncesstor {
     public TreeNode buildBinaryTree(){               //                           10
                                                     //                          /     \    
         TreeNode root = new TreeNode(10);           //                        9         20
-        root.left = new TreeNode(9);                //             4          8            15        16
-        root.right = new TreeNode(20);              //          1     6
+        root.left = new TreeNode(9);                //                    4      8  15        16
+        root.right = new TreeNode(20);              //                 1     6
         root.left.left = new TreeNode(4);           //
         root.left.right = new TreeNode(8);          //
         root.right.left = new TreeNode(15);         //
