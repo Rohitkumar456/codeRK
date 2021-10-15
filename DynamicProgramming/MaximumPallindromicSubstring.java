@@ -5,6 +5,9 @@ public class MaximumPallindromicSubstring {
         MaximumPallindromicSubstring mps = new MaximumPallindromicSubstring();
         String s = "bababaabababbaababab";
         mps.solve(s);
+        // int ans = mps.recursive(s, 0, s.length()-1, 0);
+        // System.out.println(ans);
+
     }
 
     public void solve(String s){
@@ -52,7 +55,19 @@ public class MaximumPallindromicSubstring {
             }
             System.out.println();
         }
-        System.out.println(s.substring(st,en+1));
+        System.out.println(s.substring(st,en+1)+"   len = "+(en-st+1));
 
+    }
+
+    public int recursive(String s, int st, int en, int count){
+        if(st>en) return count;
+        if(st==en) return count+1;
+
+        if(s.charAt(st)==s.charAt(en)){
+            int lcount = recursive(s, st+1, en-1, count+2);
+            return Math.max(lcount, Math.max(recursive(s, st+1, en,0), recursive(s, st, en-1, 0)));
+        }else{
+            return Math.max(recursive(s, st+1, en, 0), recursive(s, st, en-1, 0));
+        }
     }
 }

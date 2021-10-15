@@ -15,10 +15,30 @@ public class Encryption {
 	
 	private static String key = "O+LMyEqfwaMlIWw0/PxFC3KRbUSd8LmRSZ4/oUVRPow=";
     public static void main(String[] args) {
-        String in = "JE7ITTNvLbq0IBxfRJ2Z7Q==";
+        String in = "VP39KImr6FF1OOAiQfQMQA==";
+		String out = "";
+		String enc = encrypt(out, key);
         String pass = decrypt(in, key);
-        System.out.println(pass);
+        System.out.println(enc);
+		System.out.println(pass);
     }
+
+	public static String encrypt(String in, String key) {
+		String out = null;
+		try {
+			byte[] keyBytes = Base64.getDecoder().decode(key);
+			SecretKey secretKey = new SecretKeySpec(keyBytes, DEFAULT_ALGORITHM);
+			IvParameterSpec iv = new IvParameterSpec(Base64.getDecoder().decode(DEFAULT_INIT_VECTOR));
+
+			Cipher cipher = Cipher.getInstance(DEFAULT_CIPHER_ALGORITHM);
+			cipher.init(Cipher.ENCRYPT_MODE, secretKey, iv);
+			byte[] encrypted = cipher.doFinal(in.getBytes(UTF8_CHARSET));
+			out = Base64.getEncoder().encodeToString(encrypted);
+		} catch (Exception ex) {
+			// logger.error("encrypt: Generate Key Error: {}", ex.getMessage());
+		}
+		return out;
+	}
 
     public static String decrypt(String in, String key) {
 		String out = null;
