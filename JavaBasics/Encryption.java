@@ -16,7 +16,7 @@ public class Encryption {
 	private static String key = "O+LMyEqfwaMlIWw0/PxFC3KRbUSd8LmRSZ4/oUVRPow=";
     public static void main(String[] args) {
         String in = "VP39KImr6FF1OOAiQfQMQA==";
-		String out = "";
+		String out = "facebook@rkm";
 		String enc = encrypt(out, key);
         String pass = decrypt(in, key);
         System.out.println(enc);

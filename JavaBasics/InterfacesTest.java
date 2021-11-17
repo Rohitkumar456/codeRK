@@ -34,6 +34,11 @@ class D extends C{
     
 }
 
+@FunctionalInterface
+interface rohitCompare{
+    public int compare(int a, int b );
+}
+
 public class InterfacesTest {
     public static void main(String[] args) {
         A a = new B();
