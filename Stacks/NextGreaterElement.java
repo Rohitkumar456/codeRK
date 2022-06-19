@@ -35,7 +35,7 @@ public class NextGreaterElement {
                 ans[i] = -1;
             }else ans[i] = st.peek();
             st.push(a[i]);
-            // System.out.println(ans[i]);
+            System.out.println(ans[i]);
         }
         return ans;
     }

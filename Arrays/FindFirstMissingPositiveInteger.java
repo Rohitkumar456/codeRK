@@ -1,3 +1,11 @@
+/**
+ * 
+ * Question:- given an array of integers (+ve nd -ve) , you need to find the first missing positive integer.
+ * 
+ * 
+ */
+
+
 public class FindFirstMissingPositiveInteger {
     public static void main(String[] args) {
         int[] a = {2,1,4,-1,0,5};

@@ -1,7 +1,7 @@
 /**
  * 
- * Given two array of same sizes having elements whic are repeating continuously.
- * You need to fine the dot product of these two arrays.
+ * Given two array of same sizes having elements which are repeating continuously.
+ * You need to find the dot product of these two arrays.
  * 
  * Note:-  try to do in such a way tht u need to do minimal multiplications
  * 
