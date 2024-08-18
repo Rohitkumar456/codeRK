@@ -44,7 +44,7 @@ public class InterfacesTest {
         A a = new B();
         B b = new B();
         b = new C();
-        a = new C();
+        // a = new C();
         // System.out.println(a.x);
         a.m1();
 
